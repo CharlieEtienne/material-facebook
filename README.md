@@ -41,6 +41,7 @@ The only thing changing between the three available themes are `hue` and `satura
 Thanks to hsl(a) colors, all necessary shades can be achieved in a very simple way.
 
 ```css
+:root{
     --bg1: hsl(var(--hue), var(--saturation), 13%);
     --bg2: hsl(var(--hue), var(--saturation), 15%);
     --bg3: hsl(var(--hue), var(--saturation), 18%);
@@ -49,6 +50,7 @@ Thanks to hsl(a) colors, all necessary shades can be achieved in a very simple w
     --bg6: hsl(var(--hue), var(--saturation), 27%);
 	
     --ov: hsla(var(--hue), var(--saturation), 70%, .18);
+}
 ```
 
 ## Contributions
